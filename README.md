@@ -23,3 +23,6 @@ jumpingNumber(4343456) ==> return "Jumping!!"
    The year can be evenly divided by 4;
    If the year can be evenly divided by 100, it is NOT a leap year, unless;
    The year is also evenly divisible by 400. Then it is a leap year.
+
+3. Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+   (In this case, all triangles must have surface greater than 0 to be accepted).
