@@ -26,3 +26,19 @@ jumpingNumber(4343456) ==> return "Jumping!!"
 
 3. Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
    (In this case, all triangles must have surface greater than 0 to be accepted).
+
+4. Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+   Don't change the order of the elements that are left.
+   Examples
+
+- Input: [1,2,3,4,5], output = [2,3,4,5]
+
+5. Count the number of divisors of a positive integer n.
+   Random tests go up to n = 500000.
+   Examples (input --> output)
+   4 --> 3 // we have 3 divisors - 1, 2 and 4
+   5 --> 2 // we have 2 divisors - 1 and 5
+
+6. DESCRIPTION:
+   Write a function which calculates the average of the numbers in a given list.
+   Note: Empty arrays should return 0.
