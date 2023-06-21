@@ -1,9 +1,26 @@
 function getDivisorsCnt(n) {
-	let divisors = [];
-	for (let i = 1; i <= n; i++) {
+	let divisors = 0;
+	for (let i = 1; i <= Math.sqrt(n); i++) {
 		if (n % i === 0) {
-			divisors.push(i);
+			if (i === n / i) {
+				// Jeśli i jest pierwiastkiem kwadratowym n, trzeba dodać tylko jeden dzielnik
+				divisors++;
+			} else {
+				// Trzeba dodać dwa dzielniki: i oraz n/i
+				divisors += 2;
+			}
 		}
 	}
-	return divisors.length;
+	return divisors;
 }
+/*
+function getDivisorsCnt(n) {
+	let count = 0;
+	for (let i = 1; i <= n; i++) {
+		if (n % i === 0) {
+			count++;
+		}
+	}
+	return count;
+}
+*/
