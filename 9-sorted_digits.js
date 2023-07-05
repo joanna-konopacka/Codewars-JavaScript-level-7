@@ -3,3 +3,4 @@ function descendingOrder(n) {
   return parseInt( digits.sort((a, b) => b - a).join(''))
 }
 
+// return parseInt(n.toString().split("").sort().reverse().join(""));
