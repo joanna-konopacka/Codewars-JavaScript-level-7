@@ -86,10 +86,13 @@ Input: 42145 Output: 54421
 Input: 145263 Output: 654321
 
 10. Task:
-Given a number n, draw stairs using the letter "I", n tall and n wide, with the tallest in the top left.
-For example n = 3 result in:
-"I\n I\n  I"
-or printed:
-I
- I
-  I
+    Given a number n, draw stairs using the letter "I", n tall and n wide, with the tallest in the top left.
+    For example n = 3 result in:
+    "I\n I\n I"
+    or printed:
+    I
+    I
+    I
+
+11. A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+    Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
