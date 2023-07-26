@@ -96,3 +96,6 @@ Input: 145263 Output: 654321
 
 11. A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
     Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+12. Make a program that filters a list of strings and returns a list with only your friends name in it.
+    If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+    Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
