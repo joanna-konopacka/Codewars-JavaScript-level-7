@@ -99,3 +99,5 @@ Input: 145263 Output: 654321
 12. Make a program that filters a list of strings and returns a list with only your friends name in it.
     If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
     Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+13.
+Create a function getRectangleArea that takes two parameters, side and diagonal, representing the side length and diagonal of a rectangle, respectively. The function should return the area of the rectangle, rounded to two decimal places. However, it's important to be cautious since not every pair of these values will represent a valid rectangle. In such cases, the function should return the string "not a rectangle".
