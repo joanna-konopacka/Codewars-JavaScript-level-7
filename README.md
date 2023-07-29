@@ -99,5 +99,19 @@ Input: 145263 Output: 654321
 12. Make a program that filters a list of strings and returns a list with only your friends name in it.
     If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
     Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
-13.
-Create a function getRectangleArea that takes two parameters, side and diagonal, representing the side length and diagonal of a rectangle, respectively. The function should return the area of the rectangle, rounded to two decimal places. However, it's important to be cautious since not every pair of these values will represent a valid rectangle. In such cases, the function should return the string "not a rectangle".
+
+13. Create a function getRectangleArea that takes two parameters, side and diagonal, representing the side length and diagonal of a rectangle, respectively. The function should return the area of the rectangle, rounded to two decimal places. However, it's important to be cautious since not every pair of these values will represent a valid rectangle. In such cases, the function should return the string "not a rectangle".
+
+14. Converting hryvnias to other currencies. Let's create a function called convertCurrency, which takes the parameters amount (amount), exchangeRate (exchange rate), and currencyName (name of the target currency) to return the string "Give them {{x}} {{currencyName}}('s)".
+
+The function should check whether the currency exchange employee filled in all the parameters correctly. If amount and/or exchangeRate contain zeros or negative numbers, the function should return the message "Enter valid data."
+By the way, if the result is not an integer, round it to two decimal places.
+Examples:
+convertCurrency(1000, 0.037, 'dollar') === 'Give them 37 dollar('s)'
+
+15. Create a function called makeDecision that will help you in making a decision. It should take two parameters: fuelRemaining (remaining fuel) and fuelConsumption (liters per 100 km), and then return one of three messages:
+    'reach gas station by themselves' (if the car can reach the gas station on its own);
+    'ask for help' (if there is too little fuel in the tank);
+    'please, enter the valid data' (if the function did not receive the correct parameters).
+    Examples:
+    makeDeсision(3, 34, 6.5) === 'reach gas station by themselves'
