@@ -115,3 +115,10 @@ convertCurrency(1000, 0.037, 'dollar') === 'Give them 37 dollar('s)'
     'please, enter the valid data' (if the function did not receive the correct parameters).
     Examples:
     makeDeсision(3, 34, 6.5) === 'reach gas station by themselves'
+16. Create a function called isAlphabet that takes a string letters and returns true if the letters are arranged in the correct order, or false otherwise.
+    Examples:
+    isAlphabet('abc') === true;
+    isAlphabet('aBc') === true;
+    isAlphabet('abd') === false - 'c' should come after 'b';
+    isAlphabet('a') === true;
+    isAlphabet('') === false - task incomplete;
