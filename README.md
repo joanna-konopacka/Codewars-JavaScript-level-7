@@ -122,3 +122,17 @@ convertCurrency(1000, 0.037, 'dollar') === 'Give them 37 dollar('s)'
     isAlphabet('abd') === false - 'c' should come after 'b';
     isAlphabet('a') === true;
     isAlphabet('') === false - task incomplete;
+17. Create a function called findCalculationType that takes three numbers as input: two of them are known from the start, and the third one should be the result of an operation performed on the other two. For example, if number 'a' is 3 and number 'b' is 9, then their multiplication would yield the result of 27.
+
+Based on these three values 'a', 'b', and 'c', the function should return information about the type of operation performed on 'a' and 'b'. It should return the result as a string: "addition", "subtraction", "multiplication", or "division".
+
+Confusing? Let's go back to our example:
+
+'a' and 'b' are the operands of the operation, and 'c' is the result.
+Since 'a' is 3, 'b' is 9, and 'c' is 27...
+...we are dealing with multiplication (3 \* 9 = 27).
+The function should return the string "multiplication".
+Two additional examples:
+
+findCalculationType(1, 2, 3) should return "addition" because 1 + 2 = 3.
+findCalculationType(3, 5, 15) should return "multiplication" because 3 \* 5 = 15.
