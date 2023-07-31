@@ -135,4 +135,10 @@ The function should return the string "multiplication".
 Two additional examples:
 
 findCalculationType(1, 2, 3) should return "addition" because 1 + 2 = 3.
-findCalculationType(3, 5, 15) should return "multiplication" because 3 \* 5 = 15.
+findCalculationType(3, 5, 15) should return "multiplication" because 3 \* 5 = 15. 18.
+Your task is to create a validator function called canTheyBook. It should check the number of adults - adultsCount, and the number of children - childrenCount, and return true or false based on whether the booking is possible. Here are the conditions:
+
+One room can accommodate a maximum of eight people.
+The reservation must include at least one adult.
+For every two children, there should be at least one adult.
+Treat any missing arguments as 0.
