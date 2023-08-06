@@ -142,3 +142,8 @@ One room can accommodate a maximum of eight people.
 The reservation must include at least one adult.
 For every two children, there should be at least one adult.
 Treat any missing arguments as 0.
+
+19. Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.
+    For example:
+    solution([1, 2, 10, 50, 5]); // should return [1,2,5,10,50]
+    solution(null); // should return []
