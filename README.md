@@ -149,4 +149,5 @@ Treat any missing arguments as 0.
     solution(null); // should return []
 
 20. You need to determine which of the robots are still using outdated software. You can use the getOutdated function, which takes an array of all robots (robots) as input and returns an array of indices of machines operating on a coreVersion of software lower than newVersion.
+22. 
 
